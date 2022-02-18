@@ -2,14 +2,14 @@ package edu.training;
 
 public class StaticExample {
 
-     static int staticField = 10;
-     int nonStaticField = 20;
+     static int staticField = 50;
+     int nonStaticField = 60;
 
     public static void main(String[] args) {
 
         StaticExample staticExample = new StaticExample();
-        staticExample.staticField = 20;
-        staticExample.nonStaticField = 30;
+        staticExample.staticField = 100;
+        staticExample.nonStaticField = 300;
 
         StaticExample staticExample1 = new StaticExample();
         System.out.println("Static value: " + staticExample1.staticField);
