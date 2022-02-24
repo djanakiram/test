@@ -8,6 +8,8 @@ public class TestInheritance {
         System.out.println(shape.field);
         shape.test();
 
+        int a = 1000000;
+
         Rectangle rectangle = (Rectangle) shape;
         System.out.println("Number of sides: " + rectangle.numberOfSides);
         System.out.println(rectangle.fieldRect);
